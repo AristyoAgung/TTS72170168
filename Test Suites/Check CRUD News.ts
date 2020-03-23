@@ -52,4 +52,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Update_News_TTS_tanpa_title</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>198e5715-60fe-406e-9f26-3f6cf28df3a2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Read_News_TTS</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
