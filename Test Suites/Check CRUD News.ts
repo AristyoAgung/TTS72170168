@@ -34,4 +34,22 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Update_News_TTS_benar</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>3f396ceb-b909-4b39-b15a-f24e9e4a0976</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create_News_TTS_title129</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bd8b3819-6b08-41d6-9d7b-ecbc0bb9e6d9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Update_News_TTS_tanpa_text</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>68d1580d-3ca8-4e4f-a5c9-93eefe6b6c43</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Update_News_TTS_tanpa_title</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

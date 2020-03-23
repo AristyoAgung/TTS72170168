@@ -22,15 +22,15 @@ WebUI.navigateToUrl('http://[::1]/ProjectSimpleCI/index.php/news')
 
 WebUI.click(findTestObject('Object Repository/Page_CodeIgniter Tutorial/a_Edit'))
 
-WebUI.setText(findTestObject('Page_CodeIgniter Tutorial/input_Title_title'), 'layout')
+WebUI.setText(findTestObject('Object Repository/Page_CodeIgniter Tutorial/input_Title_title'), '')
 
-WebUI.setText(findTestObject('Object Repository/Page_CodeIgniter Tutorial/textarea_Lorem Ipsum is simply dummy text'), 'just a test')
+WebUI.setText(findTestObject('Object Repository/Page_CodeIgniter Tutorial/textarea_Text_text'), 'kepala hancur... the end')
 
-WebUI.click(findTestObject('Object Repository/Page_CodeIgniter Tutorial/input_Lorem Ipsum is simply dummy text_submit'))
+WebUI.click(findTestObject('Object Repository/Page_CodeIgniter Tutorial/input_Text_submit'))
 
 halaman = WebUI.getUrl()
 
-WebUI.verifyMatch(halaman, 'http://[::1]/ProjectSimpleCI/index.php/news', false)
+WebUI.verifyMatch(halaman, 'http://[::1]/ProjectSimpleCI/index.php/news/edit/2', false)
 
 WebUI.closeBrowser()
 

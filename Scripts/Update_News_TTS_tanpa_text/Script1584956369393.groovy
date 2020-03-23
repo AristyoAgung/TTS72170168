@@ -22,16 +22,15 @@ WebUI.navigateToUrl('http://[::1]/ProjectSimpleCI/index.php/news')
 
 WebUI.click(findTestObject('Object Repository/Page_CodeIgniter Tutorial/a_Edit'))
 
-WebUI.setText(findTestObject('Object Repository/Page_CodeIgniter Tutorial/input_Title_title'), '')
+WebUI.setText(findTestObject('Object Repository/Page_CodeIgniter Tutorial/input_Title_title'), 'a')
 
-WebUI.setText(findTestObject('Object Repository/Page_CodeIgniter Tutorial/textarea_Text_text'), 'kepala hancur... the end')
+WebUI.setText(findTestObject('Object Repository/Page_CodeIgniter Tutorial/textarea_Text_text'), '')
 
 WebUI.click(findTestObject('Object Repository/Page_CodeIgniter Tutorial/input_Text_submit'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_CodeIgniter Tutorial/p_The Title field is required (1)'), 
-    5)
+halaman = WebUI.getUrl()
 
-WebUI.click(findTestObject('Object Repository/Page_CodeIgniter Tutorial/a_Home'))
+WebUI.verifyMatch(halaman, 'http://[::1]/ProjectSimpleCI/index.php/news/edit/2', false)
 
 WebUI.closeBrowser()
 
