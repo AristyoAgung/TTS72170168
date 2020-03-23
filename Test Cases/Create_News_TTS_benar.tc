@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Equivalent dan Boundary Testing</description>
+   <name>Create_News_TTS_benar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dea4821a-4237-4b9f-b9d9-25c0944ff9c6</testCaseGuid>
+</TestCaseEntity>

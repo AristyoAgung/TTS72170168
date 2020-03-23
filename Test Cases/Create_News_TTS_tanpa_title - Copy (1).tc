@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Equivalent dan Boundary Testing</description>
+   <name>Create_News_TTS_tanpa_title - Copy (1)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ff263ee5-8975-4cf1-9917-bd9013c35bd0</testCaseGuid>
+</TestCaseEntity>
